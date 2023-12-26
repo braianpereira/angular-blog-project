@@ -1,0 +1,11 @@
+
+<div class="flex-container mt-3">
+  <app-big-card [card]="bigCard"  />
+  <div class="flex-container flex-col me-1">
+    <h3>Latest Posts</h3>
+    <app-small-card
+      *ngFor="let smallCard of smallCards"
+      [card]="smallCard"
+    />
+  </div>
+</div>
