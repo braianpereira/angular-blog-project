@@ -1,0 +1,7 @@
+.card {
+  flex: 0 0 calc(100% / 3);
+  box-sizing: border-box;
+  padding: 20px;
+  border: 1px solid #ddd;
+  text-align: center;
+}

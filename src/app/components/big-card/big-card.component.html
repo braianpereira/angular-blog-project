@@ -1,0 +1,19 @@
+<div class="image-container">
+  <img src="assets/{{card.image}}" alt="Imagem de fundo">
+  <div class="overlay-text">
+    <div class="pill-container mt-1">
+      <div class="dot"></div>
+      <div class="text">{{card.category}}</div>
+    </div>
+    <div class="title">
+      <a [routerLink]="['article', card.id]">
+        {{card.title}}
+      </a>
+    </div>
+    <div class="detail">
+      <a [routerLink]="['article', card.id]">
+        {{ card.date }} • {{card.reading}} min read
+      </a>
+    </div>
+  </div>
+</div>

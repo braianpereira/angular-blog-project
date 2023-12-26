@@ -1,0 +1,62 @@
+.image-container {
+  position: relative;
+  width: 100%;
+  max-width: 650px;
+  margin: auto;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-right: 1rem;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.overlay-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(245, 245, 245, 0.15);
+  color: white;
+  padding: 15px;
+
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.pill-container {
+  display: inline-flex;
+  background-color: #FFFFFF;
+  color: #9b2525;
+  border-radius: 20px;
+  padding: 7px;
+}
+
+.dot {
+  width: 16px;
+  height: 16px;
+  background-color: #9b2525;
+  border-radius: 50%;
+  margin-right: 7px;
+}
+
+.text {
+  line-height: 16px;;
+}
+
+.title > a {
+  font-size: 1.7em;
+  font-weight: bold;
+  color: #FFFFFF;
+
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.detail > a {
+  font-size: small;
+  color: #FFFFFF;
+}

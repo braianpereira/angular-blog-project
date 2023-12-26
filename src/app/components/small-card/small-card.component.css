@@ -1,0 +1,25 @@
+.image-container {
+  width: 100%;
+  max-width: 65px;
+  height: 65px;
+  margin: 0.5rem 0.5rem 0 0;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+img {
+  width: 65px;
+  height: 65px;
+  display: block;
+}
+
+.smallcard__container:hover {
+  background-color: #E4E7EC;
+  border-radius: 1.5rem;
+}
+
+.smallcard__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center
+}

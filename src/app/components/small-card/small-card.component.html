@@ -1,0 +1,17 @@
+<div class="flex-container smallcard__container">
+  <div class="image-container">
+    <img src="assets/{{card.image}}" alt="">
+  </div>
+  <div class="smallcard__title">
+    <div class="title">
+      <a [routerLink]="['article', card.id]">
+        {{card.title}}
+      </a>
+    </div>
+    <div class="detail">
+      <a [routerLink]="['article', card.id]">
+        {{card.date}} . {{card.reading}} min read
+      </a>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,19 @@
+.image-container {
+  width: 100%;
+  max-width: 650px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.resume {
+  font-size: large;
+  font-style: italic;
+  color: grey;
+  font-weight: bold;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}

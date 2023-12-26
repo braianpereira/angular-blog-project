@@ -1,0 +1,16 @@
+<div class="flex-container flex-col align-items-center">
+  <div class="title mt-3">
+    <h3>{{card.title}}</h3>
+  </div>
+  <div>
+    <a [routerLink]="['']"><< VOLTAR</a>
+  </div>
+  <div class="image-container">
+    <img src="assets/{{card.image}}" alt="" srcset="">
+  </div>
+  <div class="resume mt-2">
+    <p>{{card.resume}}</p>
+  </div>
+  <div class="article mt-2" [innerHtml]="card.article">
+  </div>
+</div>
